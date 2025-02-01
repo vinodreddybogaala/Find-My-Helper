@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Find My Helper</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <h1>Find My Helper</h1>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">Services</a>
+        <a href="#">Login</a>
+        <a href="#">Register</a>
+      </nav>
+    </div>
+  </header>
+    <section class="find-hire">
+    <div class="container">
+      <h2>Find & Hire Workers</h2>
+      <div class="category-grid" id="categoryGrid">
+        <!-- Categories will be dynamically added here -->
+      </div>
+    </div>
+  </section>
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <h2>Find Skilled Helpers in Your Area</h2>
+      <form id="searchForm">
+        <input type="text" id="location" placeholder="Enter your location" required>
+        <select id="category">
+          <option value="">Select a category</option>
+          <option value="plumber">Plumber</option>
+          <option value="electrician">Electrician</option>
+          <option value="carpenter">Carpenter</option>
+          <option value="cleaner">Cleaner</option>
+          <option value="painter">Painter</option>
+        </select>
+        <button type="submit">Search</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Featured Workers Section -->
+  <section class="featured-workers">
+    <div class="container">
+      <h2>Featured Workers</h2>
+      <div id="featuredResults" class="worker-grid"></div>
+    </div>
+  </section>
+
+  <!-- Worker Profiles Section -->
+  <section class="worker-profiles">
+    <div class="container">
+      <h2>Available Workers</h2>
+      <div id="workerResults" class="worker-grid"></div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 Find My Helper. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
