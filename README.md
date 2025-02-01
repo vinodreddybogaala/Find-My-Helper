@@ -1,6 +1,9 @@
 # find-My-Helper-near-me
 
-![Project Screenshot](images/screenshot.png) <!-- Add a screenshot if available -->
+![Project Screenshot]("C:\Users\vinod\OneDrive\Desktop\find my helper image.png") <!-- Add a screenshot if available -->
+![Uploading find my helper image.png…]()
+
+
 
 A responsive and user-friendly frontend web application to help users find and hire various types of workers in their local area. This project is built using **HTML, CSS, and JavaScript**.
 
